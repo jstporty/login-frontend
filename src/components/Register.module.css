@@ -1,4 +1,5 @@
 .container {
+  width: 100%;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -11,9 +12,9 @@
   background: white;
   border-radius: 16px;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-  padding: 40px;
-  width: 100%;
-  max-width: 460px;
+  padding: 40px 48px;
+  width: 50%;
+  max-width: 500px;
   animation: fadeIn 0.5s ease-in-out;
 }
 
